@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://pbs.twimg.com/profile_images/1310512844954370048/W5NEr-3W_400x400.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
